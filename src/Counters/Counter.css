@@ -1,0 +1,38 @@
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  border: 2px solid hsl(0, 0%, 44%);
+  border-radius: 5px;
+  padding: 20px;
+  border-style: dashed;
+}
+.container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-style: oblique;
+ padding-left: 80px;
+  
+}
+
+.container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.container button:hover {
+  background-color: #e71e08;
+}
+
+.container button:active {
+  background-color: #004080;
+}
